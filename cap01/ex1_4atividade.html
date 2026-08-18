@@ -1,0 +1,10 @@
+<meta charset="UTF-8" />
+
+<script>
+  // Questão D) Elaborar um programa que leia 2 notas de um aluno em uma disciplina. E calcule e informe a média final do aluno. Em seguida, informe se o aluno foi aprovado ou reprovado. A média para aprovação é 7.
+  const nota1 = Number(prompt("Digite a primeira nota: "));
+  const nota2 = Number(prompt("Digite a segunda nota: "));
+  const mediaFinal = (nota1 + nota2) / 2; // Calcula a média final
+  const resultado = mediaFinal >= 7 ? "Aprovado" : "Reprovado"; // Verifica se o aluno foi aprovado ou reprovado
+  alert(`Média final: ${mediaFinal.toFixed(2)}\nResultado: ${resultado}`); // Exibe a média final e o resultado
+</script>

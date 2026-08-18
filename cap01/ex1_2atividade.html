@@ -1,0 +1,9 @@
+<meta charset="UTF-8">
+
+<script>
+    // Questão B) Elaborar um programa para uma pizzaria, o qual leia o valor total de uma conta e quantos clientes irão pagar a conta. Em seguida, calcule e informe o valor que cada cliente deverá pagar.
+    const valorTotal = Number(prompt("Digite o valor total da conta: "));
+    const quantidadeClientes = Number(prompt("Digite a quantidade de clientes: "));
+    const valorPorCliente = valorTotal / quantidadeClientes;
+    alert(`Cada cliente deverá pagar: R$ ${valorPorCliente.toFixed(2)}`);
+</script>

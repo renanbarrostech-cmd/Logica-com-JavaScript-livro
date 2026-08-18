@@ -1,0 +1,12 @@
+<meta charset="UTF-8" />
+
+<script>
+  // Questão C) Elaborar um programa para uma loja, o qual leia o preço de um produto e informe as opções de pagamento dá loja.
+  // Calcule e informe o valor para o pagamento a vista com 10% de desconto e o valor em 3x sem juros.
+
+  const precoProduto = Number(prompt("Digite o preço do produto: "));
+  const pagamentoAVista = precoProduto * 0.9; // Calcula o valor com 10% de desconto
+  const pagamentoParcelado = precoProduto / 3; // Calcula o valor em  3x sem juros
+  alert(`Opções de pagamento:\nÀ vista com 10% de desconto: R$ ${pagamentoAVista.toFixed(2)}\nEm 3x sem juros: R$ ${pagamentoParcelado.toFixed(2)} por parcela`);
+  // O método toFixed(2) formata um número para exibir 2 casas decimais e retorna uma string.
+</script>
